@@ -28,11 +28,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_availability_zones"></a> [availability\_zones](#input\_availability\_zones) | n/a | `list(any)` | n/a | yes |
-| <a name="input_bastion_instance_type"></a> [bastion\_instance\_type](#input\_bastion\_instance\_type) | n/a | `string` | n/a | yes |
+| <a name="input_availability_zones"></a> [availability\_zones](#input\_availability\_zones) | List available AZ in region | `list(any)` | n/a | yes |
+| <a name="input_bastion_instance_type"></a> [bastion\_instance\_type](#input\_bastion\_instance\_type) | bastion host system family type | `string` | n/a | yes |
 | <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | vpc cidr block | `string` | n/a | yes |
-| <a name="input_environment"></a> [environment](#input\_environment) | description | `string` | `"deni"` | no |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `string` | n/a | yes |
+| <a name="input_environment"></a> [environment](#input\_environment) | Environment Prod  Dev Stag | `string` | `"deni"` | no |
+| <a name="input_region"></a> [region](#input\_region) | Environment region | `string` | n/a | yes |
 
 ## Outputs
 
