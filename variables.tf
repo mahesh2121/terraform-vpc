@@ -5,18 +5,18 @@ variable "environment" {
 }
 
 variable "region" {
-  type = string
+  type        = string
   description = "Environment region"
 
 }
 
 variable "availability_zones" {
-  type = list(any)
+  type        = list(any)
   description = " List available AZ in region"
 }
 
 variable "bastion_instance_type" {
-  type = string
+  type        = string
   description = "bastion host system family type"
 }
 

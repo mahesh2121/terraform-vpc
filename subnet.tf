@@ -7,7 +7,7 @@ resource "aws_subnet" "public" {
 
   tags = {
 
-    "Name" = "Public-subnet - ${element(var.availability_zone,  count.index)}"
+    "Name" = "Public-subnet - ${element(var.availability_zones, count.index)}"
   }
 }
 
