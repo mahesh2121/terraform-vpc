@@ -1,0 +1,18 @@
+# Ignore Terraform local .terraform directories
+**/.terraform/*
+
+# Ignore .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore .tfvars files that are likely to contain sensitive information, such as passwords, private keys, etc.
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and do not need to be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash log files
+crash.log
